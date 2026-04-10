@@ -11,12 +11,14 @@ and fresh produce sellers can list products and connect directly
 with nearby customers — fostering community commerce and reducing 
 dependency on large retail chains.
 
+
 ## Features
 - Vendor onboarding — bakers and produce sellers can list products
 - Customer-facing marketplace for browsing local food offerings
 - Direct vendor-to-customer connection
 - Location-aware hyperlocal discovery
 - Supabase-powered backend for real-time data and authentication
+
 
 ## Tech Stack
 | Layer | Technology |
@@ -27,6 +29,7 @@ dependency on large retail chains.
 | Font | Geist via next/font |
 | AI-Assisted Development | Google Antigravity, Claude |
 
+
 ## Project Structure
 ├── app/          # Next.js App Router pages and layouts
 ├── components/   # Reusable UI components
@@ -34,10 +37,12 @@ dependency on large retail chains.
 ├── public/       # Static assets
 └── proxy.ts      # API proxy configuration
 
+
 ## Database
 Supabase PostgreSQL schema included:
 - `supabase-schema.sql` — initial database schema
 - `supabase-schema-update.sql` — schema migrations
+
 
 ## Getting Started
 ```bash
@@ -46,9 +51,10 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) to view locally.
 
+
 ## Status
 🚀 Active development — MVP in progress
 
 ---
-*Full source code is private to protect the startup concept. 
+*Full source code is private to protect the project concept. 
 This repository showcases project structure and documentation only.*
