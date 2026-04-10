@@ -31,11 +31,13 @@ dependency on large retail chains.
 
 
 ## Project Structure
-├── app/          # Next.js App Router pages and layouts
-├── components/   # Reusable UI components
-├── lib/supabase/ # Supabase client and database helpers
-├── public/       # Static assets
-└── proxy.ts      # API proxy configuration
+| Folder/File | Description |
+|-------------|-------------|
+| `app/` | Next.js App Router pages and layouts |
+| `components/` | Reusable UI components |
+| `lib/supabase/` | Supabase client and database helpers |
+| `public/` | Static assets |
+| `proxy.ts` | API proxy configuration |
 
 
 ## Database
